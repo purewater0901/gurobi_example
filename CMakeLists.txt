@@ -24,3 +24,7 @@ include_directories(${EIGEN3_INCLUDE_DIR})
 add_executable(socp_prc main.cpp)
 target_link_libraries (socp_prc gurobi_c++)
 target_link_libraries (socp_prc gurobi81)
+
+add_executable(socp_prc2 example2.cpp)
+target_link_libraries (socp_prc2 gurobi_c++)
+target_link_libraries (socp_prc2 gurobi81)
